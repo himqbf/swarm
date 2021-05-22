@@ -7,7 +7,7 @@ rpm -i bee-clef_0.4.12_amd64.rpm
 wget https://github.com/ethersphere/bee/releases/download/v0.6.1/bee_0.6.1_amd64.rpm
 rpm -i bee_0.6.1_amd64.rpm
 wget https://raw.githubusercontent.com/himqbf/swarm/main/clefstart.sh
-wget https://raw.githubusercontent.com/himqbf/swarm/main/beestart.sh
+wget https://raw.githubusercontent.com/himqbf/swarm/main/beestart-lj.sh
 chmod +x clefstart.sh
 chmod +x beestart.sh
 yum install -y expect
