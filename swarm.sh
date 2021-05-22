@@ -15,12 +15,10 @@ yum install -y screen
 screen -dmS clef
 clefcmd="./clefstart.sh"
 screen -x -S clef -p 0 -X stuff "$clefcmd"
-screen -x -S clef -p 0 -X stuff $'\n'
 
 screen -dmS bee
 beecmd="./beestart.sh"
 screen -x -S bee -p 0 -X stuff "$beecmd"
-screen -x -S bee -p 0 -X stuff $'\n'
 
 yum install -y epel-release
 yum list jq
