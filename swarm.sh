@@ -12,13 +12,13 @@ chmod +x clefstart.sh
 chmod +x beestart.sh
 yum install -y expect
 yum install -y screen
-screen -dmS clef
-clefcmd="./clefstart.sh"
-screen -x -S clef -p 0 -X stuff "$clefcmd"
+#screen -dmS clef
+#clefcmd="./clefstart.sh"
+#screen -x -S clef -p 0 -X stuff "$clefcmd"
 
-screen -dmS bee
-beecmd="./beestart.sh"
-screen -x -S bee -p 0 -X stuff "$beecmd"
+#screen -dmS bee
+#beecmd="./beestart.sh"
+#screen -x -S bee -p 0 -X stuff "$beecmd"
 
 yum install -y epel-release
 yum list jq
